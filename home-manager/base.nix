@@ -44,12 +44,7 @@
       allowUnfree = true;
     };
   };
-
-  # TODO: Set your username
-  home = {
-    username = "your-username";
-    homeDirectory = "/home/your-username";
-  };
+  
 
   # Add stuff for your user as you see fit:
   # programs.neovim.enable = true;
