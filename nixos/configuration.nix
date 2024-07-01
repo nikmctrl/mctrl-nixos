@@ -76,7 +76,7 @@
   # TODO: Configure your system-wide user settings (groups, etc), add more users as needed.
   users.users = {
     # FIXME: Replace with your username
-    nikolai = (import ../users/nikolai.nix) inputs outputs;
+    nikolai = (import ../users/nikolai.nix);
   };
 
   # This setups a SSH server. Very important if you're setting up a headless system.
